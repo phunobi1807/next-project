@@ -1,5 +1,4 @@
 import About from "../components/About/About";
-import Services from "../components/Services/Services";
 
 
 export default function Home() {
@@ -7,7 +6,6 @@ export default function Home() {
     <>
       <div className="home__page">
         <About />
-        <Services />
       </div>
     </>
   );
